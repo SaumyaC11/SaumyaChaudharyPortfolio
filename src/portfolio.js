@@ -22,9 +22,9 @@ const illustration = {
 
 const greeting = {
   username: "Saumya Chaudhary",
-  title: "Hi all, I'm Saumya",
+  title: "Hi all, I'm Saumya / Developer",
   subTitle: emoji(
-    "A passionate Software and Machine Learning Engineer 🚀 with experience in backend development using Python, Flask API framework, and Python libraries. Actively seeking a summer internship for 2025."
+    "A passionate student interested in LLM, Machine Learning, and Software Engineering 🚀 with experience in Python, Langchain, Docker, C# & Microsoft SQL Server. Actively seeking a co-op or full time role in 2026"
   ),
   resumeLink:
     //1ksxEdlyWYt6gCi-0XBpZ3u30z6Ls_sHH
@@ -37,7 +37,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/SaumyaC11",
   linkedin: "https://www.linkedin.com/in/saumya-chaudhary11/",
-  gmail: "schau60@uic.edu",
+  gmail: "saumyachaudhary1011@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   gitlab : "",
   //leetcode : "https://leetcode.com/u/chaudharysaumya847/",
@@ -55,15 +55,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "Outgoing person who loves to learn new technolgies",
+  title: "What I am working on",
+  subTitle: "Building a personal brand and growing my skills",
   skills: [
     emoji(
-      "⚡ Design and implement backend interfaces using APIs, integrating them with SQL and No-SQL databases"
+      "⚡ Automating the data pipeline, removing manual labour using C# and Microsoft SQL Server"
     ),
-    emoji("⚡ Develop machine learning algorithms and leverage Python libraries to address detection and classification challenges"),
+    emoji("⚡ Learning and creating LLM pipelines, from RAG to fine-tuning LLM to agentic-AI"),
     emoji(
-      "⚡ Perform data analysis and abstraction to derive actionable insights"
+      "⚡ Working on building skills in optimized ETL pipelines, Cloud, and MLOps"
     )
   ],
 
@@ -76,16 +76,40 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-python-plain"
     },
     {
+      skillName: "Langchain",
+      fontAwesomeClassname: "devicon-python-plain"
+    },
+    {
       skillName: "Docker",
       fontAwesomeClassname: "devicon-docker-plain"
+    },
+    {
+      skillName: "Prompt Enginnering",
+      fontAwesomeClassname: "devicon-python-plain"
     },
     {
       skillName : "C#",
       fontAwesomeClassname : "devicon-csharp-plain"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "devicon-azuresqldatabase-plain"
+      skillName : ".NET",
+      fontAwesomeClassname : "devicon-dotnetcore-plain"
+    },
+    {
+      skillName: "Microsoft SQL Server",
+      fontAwesomeClassname: "devicon-microsoftsqlserver-plain"
+    },
+    {
+      skillName: "Postgres SQL",
+      fontAwesomeClassname: "devicon-postgresql-plain"
+    },
+    {
+      skillName : "AWS",
+      fontAwesomeClassname : "devicon-amazonwebservices-plain-wordmark"
+    },
+    {
+      skillName : "ElasticSearch",
+      fontAwesomeClassname : "devicon-elasticsearch-plain-wordmark"
     },
     {
       skillName : "Gitlab",
@@ -135,7 +159,23 @@ https://fontawesome.com/icons?d=gallery */
       skillName : "Matplotlib",
       fontAwesomeClassname : "devicon-matplotlib-plain"
     },
-  
+    {
+      skillName : "PostgreSQL",
+      fontAwesomeClassname : "devicon-postgresql-plain"
+    },
+    {
+      skillName : "Google Cloud Platform",
+      fontAwesomeClassname : "devicon-googlecloud-plain"
+    },
+   
+    {
+      skillName : "Pytorch",
+      fontAwesomeClassname : " devicon-pytorch-original"
+    },
+    {
+      skillName : "Apache Kakka",
+      fontAwesomeClassname : " devicon-apachekafka-original"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -150,12 +190,13 @@ const educationInfo = {
       logo: require("./assets/images/uic1.png"),
       subHeader: "Master in Computer Science",
       duration: "August 2024 - May 2026",
-      desc: "GPA = Not Declared Yet",
+      desc: "GPA = 4.0",
       descBullets: [
         "CS411 : Artificial Intelligence",
         "CS418: Intro to Data Science",
         "CS483 : Big Data Mining",
-        
+        "CS511 : Artificial Intelligence II",
+        "CS594 : Socially Responsible AI"
       ]
     },
     {
@@ -164,8 +205,8 @@ const educationInfo = {
       subHeader: "Bachelor of Technology in Computer Science & Engineering",
       duration: "June 2020 - August 2024",
       desc: "GPA = 3.70",
-      descBullets: ["Did courses on Machine learning, Object Oriented Programming, Software Engineering, and many more",
-        "Worked as Assistant Head of Marketing and Management, responsible for ensuring reaching target audience for the events and organized 10+ workshops throughout the year"
+      descBullets: ["Did courses like Machine learning, Object Oriented Programming, Software Engineering, and many more",
+        "Worked as Assistant Head of Marketing and Management, responsible for ensuring reach to target audience for the events and organized 10+ workshops throughout the duration"
       ]
     }
   ]
@@ -186,7 +227,7 @@ const techStack = {
     },
     {
       Stack: "Python",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
     },
     {
       Stack: "SQL",
@@ -202,16 +243,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Computer Specialist",
+      company: "School of Public Health SPH-UIC",
+      companylogo: require("./assets/images/uic1.png"),
+      date: "May 2025 – Present",
+      desc: "Responsible for full stack development of projects handing task like data pipelining, automation and monitoring",
+      descBullets: [
+        "Developed a comprehensive research analytics dashboard for the SPH using ASP.NET Web Forms, Chart.js, and Microsoft SQL Server. The system aggregates research data from multiple sites, visualizes key impact metrics, and highlights inter-author collaboration networks, enabling more than 500+ stakeholders to assess the scope and influence of their ongoing academic research.",
+         "Engineered a competency management portal enabling professors to update and submit competency profiles for approval. Implemented a robust approval workflow where approvers can view version history, accept or revoke changes, and send structured feedback to users. Built with ASP.NET Web Forms, Microsoft SQL Server, and JavaScript, the solution supports full CRUD operations, version tracking, and role-based access control, reducing manual updation effort by 90%",
+        ]
+    },
+    {
       role: "Software Engineer Intern",
       company: "Swastika Investmart Ltd",
       companylogo: require("./assets/images/swastika.png"),
       date: "January 2024 – July 2024",
       desc: "Learned skills like Python for backend development, C#, Flask API, Docker and MongoDB",
       descBullets: [
-        "Engineered the backend interface for a stocks information page on the Swastika Investmart website using Python with Flask REST API calls. APIs fetch data from a MongoDB database that undergoes nightly updates using cron. The project is deployed using Docker, ensuring daily insertion of about 3,000 stocks, and the API response is converted to HTTPS with NGINX service for reverse proxy",
-        "Revamped the emails sent during customer acquisition. This included fixing the issues with the 20 templates and optimizing 400 lines of C# code, thus providing a better onboarding experience and a 3% reduction in onboarding time. ",
-        "Analyzed trade calls given by the research team comparing current and past trades for about 30 stocks daily. Developed SQL procedures to fetch data and automated C# APIs to email Excel reports, improving decision-making speed by 15%."
-      ]
+        "Engineered the backend for the stock information page using Flask API and MongoDB, enabling seamless data access of 4,500 stocks, while Docker ensures the reliable deployment of cronjobs and NGINX secures API responses.",
+        "Revamped customer acquisition emails by fixing issues in 20 C# templates and APIs, resulting in an improved onboarding experience and a 15% reduction in onboarding time. ",
+        "Built C# APIs to automate trade reports, which analyzed 150 stocks trade calls daily, boosting the decision-making speed of the research department by 30%. "    ]
     },
     {
       role: "Research Intern",
@@ -220,10 +271,9 @@ const workExperiences = {
       date: "June 2023 – August 2023",
       desc: "Worked towards a solution of Blue Band Detection Problem for satellite images using deep learning and GAN",
       descBullets: [
-        "Artificially regenerate the blue band around 1 million images using red and green and near the infrared image of the same scene, solving the blue band detection problem in satellite images.",
-        "Performed a comprehensive analysis of existing methods, leading to the development of custom GAN from scratch using TensorFlow and Keras. Trained it for around 500 epochs and obtained 94% accuracy, surpassing previously available solutions.",
-        "The GAN model consisted of Dense block and U-Net architecture. Performance was rigorously evaluated quantitatively and qualitatively, showing a significant improvement over the pix2pix model in accuracy and image quality."
-      ]
+        "Regenerated the blue band of approximately 1 million images using red, green, and near-infrared images effectively addressing the blue band detection problem in satellite imagery. ",
+        "Conducted a comprehensive analysis of existing methods, which led to the development of a custom GAN from scratch using TensorFlow and Keras, achieved 94% accuracy by training for 500 epochs and surpassed prior solutions for generating blue band. ",
+        "Utilized Dense Block and U-Net architectures, outperforming the pix2pix model with a 97% R-squared score and 0.013 FID, demonstrating superior quantitative and qualitative results. "  ]
     },
     /*
     {
@@ -251,12 +301,29 @@ const bigProjects = {
   //subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/traffic.webp"),
-      projectName: "Traffic Sign Classification System",
-      projectDesc: "Using German Traffic Sign Recognition Benchmark (GTSRB) dataset for classifying traffic signs into 43 classes using CNN, acuracy obtained is 93%",
+      image : require("./assets/images/rag.webp"),
+      projectName: "StudyMate AI: Agentic RAG" ,
+      projectDesc: "RAG build with Langchain, llama-3.3-70b-versatile, which are not just limited to questions regarding documents, but can choose tools like summarize PDF, generate MCQ, generate short answers intelligently to use based on the query of the user itself.",
       footerLink: [
         {
-          name: "Project Link",
+          name: "Github Link",
+          url: "https://github.com/SaumyaC11/agentic_rag_tutor"
+        },
+        {
+          name: "Website Link",
+          url: "https://studymateai-yls2b3vfmky8ck5goowby.streamlit.app/"
+        }
+        
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image : require("./assets/images/traffic.webp"),
+      projectName: "Traffic Sign Classification System",
+      projectDesc: "Trained and fine-tuned a Convolutional Neural Network (CNN) on the German Traffic Sign Recognition Benchmark (GTSRB) dataset, achieving 93% accuracy in classifying signs across 43 traffic sign classes. ",
+      footerLink: [
+        {
+          name: "Github Link",
           url: "https://github.com/SaumyaC11/TrafficSignClassification"
         }
         //  you can add extra buttons here.
@@ -264,16 +331,28 @@ const bigProjects = {
     },
     
     {
-      image: require("./assets/images/architecture.PNG"),
-      projectName: "Melanoma Cancer Cell Dectection Problem",
-      projectDesc: "Classified skin cells as melanoma or non-melanoma using a Deep Convolutional Neural Network (DCNN), applying data augentation and class imbalance handling to improve accuracy, achieving 92% on a dataset of 2,000 images across 9 cancer cell classes.",
+      image : require("./assets/images/fire.png"),
+      projectName: "Wildfire Prediction Model",
+      projectDesc: "Programmed a model to analyze fire cause and size classifier using 300,000 demographic fire records over the past 30 years, achieving 70% and 73% accuracy with Random Forest and SMOTE respectively.",
       footerLink: [
         {
-          name: "Project Link",
-          url: "https://github.com/SaumyaC11/Melanoma_Cell_Detection"
+          name: "Github Link",
+          url: "https://github.com/SaumyaC11/wildfire_prediction_model/tree/master"
         }
       ]
-    }
+    },
+    {
+      image : require("./assets/images/melodify.png"),
+      projectName: "Melodify - Music Similarity through Embedding and Metadata",
+      projectDesc: "Developed a lyric-based music recommendation to address the cold start problem by analyzing 10,000+ songs from Last.fm and Million Song Dataset. Utilized Word2Vec, graph embeddings, Sentence-BERT for song embeddings and leveraged XGBoost for artist-tag based recommendations, achieving 54% better recommendations for cold start.",
+      footerLink: [
+        {
+          name: "Github Link",
+          url: "https://github.com/SaumyaC11/Melodify"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -343,24 +422,18 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@chaudharysaumya847/elasticsearch-search-and-mlops-engine-effdf5b1648b",
+      title: "Elasticsearch: Search and MLOps Engine",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Took a dive into how Elasticsearch (build on search engine) is more of MLOps tools used for efficient reterival and searching "
     },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+    
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -409,7 +482,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "331-341-8755",
-  email_address: "schau60@uic.edu"
+  email_address: "saumyachaudhary1011@gmail.com"
 };
 
 // Twitter Section
